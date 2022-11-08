@@ -983,7 +983,7 @@ header {
 .connect-items p {
   color: white;
   text-transform: uppercase;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -1050,7 +1050,7 @@ a.portfolio-link {
   background: #2f303acc;
   color: #fff;
   width: 100%;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 700;
@@ -1112,6 +1112,8 @@ a.portfolio-link {
   margin-right: 8px;
   padding: 0;
   cursor: pointer;
+  fill: #000000;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-close:hover, .btn-close:focus {
   fill: #2196F3;
@@ -1119,7 +1121,7 @@ a.portfolio-link {
 .mailing-list p {
   color: white;
   text-transform: uppercase;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -1145,7 +1147,7 @@ a.portfolio-link {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: white;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1164,8 +1166,7 @@ a.portfolio-link {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1181,15 +1182,16 @@ a.portfolio-link {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 15px;
+  padding-right: 15px;
   outline: none;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form {
   margin-left: 40px;
   margin-right: 40px;
 }
 .form-checkbox {
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-right: 8.38px;
 }
 .form-button {
   margin: 0 auto;
@@ -1198,8 +1200,7 @@ a.portfolio-link {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: white;
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -1209,11 +1210,11 @@ a.portfolio-link {
   padding-right: 52px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 30px;
   cursor: pointer;
 }
 .form-group p {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -1222,13 +1223,16 @@ a.portfolio-link {
   color: #212121;
 }
 .checkbox-item {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .policy-link {
   color: #2196f3;
@@ -1253,22 +1257,17 @@ a.portfolio-link {
   top: 50%;
   left: 15px;
   transform: translateY(25%);
-}
-.input-icon {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translateY(25%);
-}
-.input-icon {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translateY(25%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input {
   position: relative;
 }
 .mailing-items {
   margin-top: 20px;
+}
+.form-text {
+  height: 120px;
+}
+textarea {
+  resize: none;
 }
