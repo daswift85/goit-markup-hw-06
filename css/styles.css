@@ -1118,7 +1118,7 @@ a.portfolio-link {
 .btn-close:hover, .btn-close:focus {
   fill: #2196F3;
 }
-.mailing-list p {
+.mailing-list__header {
   color: white;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
@@ -1131,7 +1131,7 @@ a.portfolio-link {
 .email {
   margin-top: 20px;
 }
-.mailing-input {
+.mailing-list__input {
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1243,9 +1243,6 @@ a.portfolio-link {
 .phone {
   padding-left: 42px;
 }
-.email {
-  padding-left: 42px;
-}
 .form-item:focus, .form-item:hover {
   border: 1px solid #2196F3;
 }
@@ -1261,9 +1258,6 @@ a.portfolio-link {
 }
 .form-input {
   position: relative;
-}
-.mailing-items {
-  margin-top: 20px;
 }
 .form-text {
   height: 120px;
